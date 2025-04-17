@@ -1,0 +1,3 @@
+/home/andy/cuda_cmake_project/build/CMakeFiles/cuda_parallel_programming.dir
+/home/andy/cuda_cmake_project/build/CMakeFiles/edit_cache.dir
+/home/andy/cuda_cmake_project/build/CMakeFiles/rebuild_cache.dir
