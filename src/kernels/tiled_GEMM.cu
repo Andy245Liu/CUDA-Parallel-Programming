@@ -4,6 +4,8 @@
 #include <cuda_runtime.h>
 #include <stdio.h>
 
+#define GEMM_TILE_WIDTH 2
+
 __global__ void tiled_GEMM(const float *A, const float *B, float *C, const int M, const int N, const int K) {
     //This performs GEMM on A * B = C, where A is size M x K and B is size K x N
     __shared__ float subTileA[GEMM_TILE_WIDTH][GEMM_TILE_WIDTH];

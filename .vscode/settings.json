@@ -56,6 +56,10 @@
         "thread": "cpp",
         "typeinfo": "cpp",
         "__nullptr": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "shared_mutex": "cpp",
+        "cfenv": "cpp"
     }
 }

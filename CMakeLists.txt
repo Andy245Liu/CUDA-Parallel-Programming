@@ -15,6 +15,7 @@ add_executable(cuda_parallel_programming
     src/kernels/parallel_scan.cu
     src/kernels/histogram.cu
     src/kernels/sparse_matrix_multiply.cu
+    src/kernels/streams.cu
     src/sparse_matrix.cpp)
 
     

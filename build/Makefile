@@ -225,6 +225,30 @@ src/kernels/sparse_matrix_multiply.cu.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda_parallel_programming.dir/build.make CMakeFiles/cuda_parallel_programming.dir/src/kernels/sparse_matrix_multiply.cu.s
 .PHONY : src/kernels/sparse_matrix_multiply.cu.s
 
+src/kernels/streams.o: src/kernels/streams.cu.o
+.PHONY : src/kernels/streams.o
+
+# target to build an object file
+src/kernels/streams.cu.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda_parallel_programming.dir/build.make CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.o
+.PHONY : src/kernels/streams.cu.o
+
+src/kernels/streams.i: src/kernels/streams.cu.i
+.PHONY : src/kernels/streams.i
+
+# target to preprocess a source file
+src/kernels/streams.cu.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda_parallel_programming.dir/build.make CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.i
+.PHONY : src/kernels/streams.cu.i
+
+src/kernels/streams.s: src/kernels/streams.cu.s
+.PHONY : src/kernels/streams.s
+
+# target to generate assembly for a file
+src/kernels/streams.cu.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda_parallel_programming.dir/build.make CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.s
+.PHONY : src/kernels/streams.cu.s
+
 src/kernels/tiled_GEMM.o: src/kernels/tiled_GEMM.cu.o
 .PHONY : src/kernels/tiled_GEMM.o
 
@@ -390,6 +414,9 @@ help:
 	@echo "... src/kernels/sparse_matrix_multiply.o"
 	@echo "... src/kernels/sparse_matrix_multiply.i"
 	@echo "... src/kernels/sparse_matrix_multiply.s"
+	@echo "... src/kernels/streams.o"
+	@echo "... src/kernels/streams.i"
+	@echo "... src/kernels/streams.s"
 	@echo "... src/kernels/tiled_GEMM.o"
 	@echo "... src/kernels/tiled_GEMM.i"
 	@echo "... src/kernels/tiled_GEMM.s"

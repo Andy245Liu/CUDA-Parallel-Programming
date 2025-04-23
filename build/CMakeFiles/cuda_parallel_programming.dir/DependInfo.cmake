@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/andy/cuda_cmake_project/src/kernels/list_reduction.cu" "CMakeFiles/cuda_parallel_programming.dir/src/kernels/list_reduction.cu.o" "gcc" "CMakeFiles/cuda_parallel_programming.dir/src/kernels/list_reduction.cu.o.d"
   "/home/andy/cuda_cmake_project/src/kernels/parallel_scan.cu" "CMakeFiles/cuda_parallel_programming.dir/src/kernels/parallel_scan.cu.o" "gcc" "CMakeFiles/cuda_parallel_programming.dir/src/kernels/parallel_scan.cu.o.d"
   "/home/andy/cuda_cmake_project/src/kernels/sparse_matrix_multiply.cu" "CMakeFiles/cuda_parallel_programming.dir/src/kernels/sparse_matrix_multiply.cu.o" "gcc" "CMakeFiles/cuda_parallel_programming.dir/src/kernels/sparse_matrix_multiply.cu.o.d"
+  "/home/andy/cuda_cmake_project/src/kernels/streams.cu" "CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.o" "gcc" "CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.o.d"
   "/home/andy/cuda_cmake_project/src/kernels/tiled_GEMM.cu" "CMakeFiles/cuda_parallel_programming.dir/src/kernels/tiled_GEMM.cu.o" "gcc" "CMakeFiles/cuda_parallel_programming.dir/src/kernels/tiled_GEMM.cu.o.d"
   "/home/andy/cuda_cmake_project/src/kernels/tiled_conv2d.cu" "CMakeFiles/cuda_parallel_programming.dir/src/kernels/tiled_conv2d.cu.o" "gcc" "CMakeFiles/cuda_parallel_programming.dir/src/kernels/tiled_conv2d.cu.o.d"
   "/home/andy/cuda_cmake_project/src/kernels/utils.cu" "CMakeFiles/cuda_parallel_programming.dir/src/kernels/utils.cu.o" "gcc" "CMakeFiles/cuda_parallel_programming.dir/src/kernels/utils.cu.o.d"

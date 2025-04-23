@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cuda_parallel_programming.dir/src/kernels/parallel_scan.cu.o.d"
   "CMakeFiles/cuda_parallel_programming.dir/src/kernels/sparse_matrix_multiply.cu.o"
   "CMakeFiles/cuda_parallel_programming.dir/src/kernels/sparse_matrix_multiply.cu.o.d"
+  "CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.o"
+  "CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.o.d"
   "CMakeFiles/cuda_parallel_programming.dir/src/kernels/tiled_GEMM.cu.o"
   "CMakeFiles/cuda_parallel_programming.dir/src/kernels/tiled_GEMM.cu.o.d"
   "CMakeFiles/cuda_parallel_programming.dir/src/kernels/tiled_conv2d.cu.o"

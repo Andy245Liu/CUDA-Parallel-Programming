@@ -195,10 +195,24 @@ CMakeFiles/cuda_parallel_programming.dir/src/kernels/sparse_matrix_multiply.cu.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CUDA source to assembly CMakeFiles/cuda_parallel_programming.dir/src/kernels/sparse_matrix_multiply.cu.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CUDA_CREATE_ASSEMBLY_SOURCE
 
+CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.o: CMakeFiles/cuda_parallel_programming.dir/flags.make
+CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.o: ../src/kernels/streams.cu
+CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.o: CMakeFiles/cuda_parallel_programming.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andy/cuda_cmake_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CUDA object CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.o"
+	/usr/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.o -MF CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.o.d -x cu -c /home/andy/cuda_cmake_project/src/kernels/streams.cu -o CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.o
+
+CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CUDA_CREATE_PREPROCESSED_SOURCE
+
+CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CUDA source to assembly CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CUDA_CREATE_ASSEMBLY_SOURCE
+
 CMakeFiles/cuda_parallel_programming.dir/src/sparse_matrix.cpp.o: CMakeFiles/cuda_parallel_programming.dir/flags.make
 CMakeFiles/cuda_parallel_programming.dir/src/sparse_matrix.cpp.o: ../src/sparse_matrix.cpp
 CMakeFiles/cuda_parallel_programming.dir/src/sparse_matrix.cpp.o: CMakeFiles/cuda_parallel_programming.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andy/cuda_cmake_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cuda_parallel_programming.dir/src/sparse_matrix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andy/cuda_cmake_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cuda_parallel_programming.dir/src/sparse_matrix.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cuda_parallel_programming.dir/src/sparse_matrix.cpp.o -MF CMakeFiles/cuda_parallel_programming.dir/src/sparse_matrix.cpp.o.d -o CMakeFiles/cuda_parallel_programming.dir/src/sparse_matrix.cpp.o -c /home/andy/cuda_cmake_project/src/sparse_matrix.cpp
 
 CMakeFiles/cuda_parallel_programming.dir/src/sparse_matrix.cpp.i: cmake_force
@@ -220,6 +234,7 @@ cuda_parallel_programming_OBJECTS = \
 "CMakeFiles/cuda_parallel_programming.dir/src/kernels/parallel_scan.cu.o" \
 "CMakeFiles/cuda_parallel_programming.dir/src/kernels/histogram.cu.o" \
 "CMakeFiles/cuda_parallel_programming.dir/src/kernels/sparse_matrix_multiply.cu.o" \
+"CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.o" \
 "CMakeFiles/cuda_parallel_programming.dir/src/sparse_matrix.cpp.o"
 
 # External object files for target cuda_parallel_programming
@@ -234,10 +249,11 @@ cuda_parallel_programming: CMakeFiles/cuda_parallel_programming.dir/src/kernels/
 cuda_parallel_programming: CMakeFiles/cuda_parallel_programming.dir/src/kernels/parallel_scan.cu.o
 cuda_parallel_programming: CMakeFiles/cuda_parallel_programming.dir/src/kernels/histogram.cu.o
 cuda_parallel_programming: CMakeFiles/cuda_parallel_programming.dir/src/kernels/sparse_matrix_multiply.cu.o
+cuda_parallel_programming: CMakeFiles/cuda_parallel_programming.dir/src/kernels/streams.cu.o
 cuda_parallel_programming: CMakeFiles/cuda_parallel_programming.dir/src/sparse_matrix.cpp.o
 cuda_parallel_programming: CMakeFiles/cuda_parallel_programming.dir/build.make
 cuda_parallel_programming: CMakeFiles/cuda_parallel_programming.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andy/cuda_cmake_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable cuda_parallel_programming"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andy/cuda_cmake_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable cuda_parallel_programming"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cuda_parallel_programming.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
